@@ -1,0 +1,194 @@
+*{
+    font-family: Arial,sans-serif;
+ }
+ .body{
+     margin: 0;
+     padding: 0;  
+     
+ }
+ .contain{
+     background-color: rgb(50, 107, 150);
+     height: 650px;
+     width: 550px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .container{
+     background-color: rgb(240, 243, 245);
+     width: 500px;
+     height: 600px;
+     border-radius: 5px;
+     display: grid;
+     grid-template-columns: repeat(6,1fr);
+     grid-template-rows: repeat(8,1fr);
+     
+ }
+ .top{
+     display: flex;
+     justify-content: center;
+     background-color: rgb(213, 234, 234);
+     grid-column: 1/6 span;
+     grid-row: 1/1 span;
+     border-radius: 5px 5px 0 0;
+     border-bottom: 1px solid rgb(205, 195, 195);
+
+ }
+ 
+ .name{
+     grid-column: 1/6 span;
+     grid-row: 2/6 span;
+     margin-top: 20px;
+     margin-right: 10px;
+     margin-left: -30px;
+     display: flex;
+     justify-content: space-evenly;
+     
+ }
+ .Email{
+     grid-column: 1/6 span;
+     grid-row: 3/6 span;
+     margin-top: 5px;
+     margin-left: 30px;    
+
+ }
+ .Password{
+     grid-column: 1/6 span;
+     grid-row: 4/6 span;
+     margin-top: -10px;
+     margin-right: 10px;
+     margin-left: -30px;
+     display: flex;
+     justify-content: space-evenly;
+     
+ }
+ .Gender{
+     grid-column: 1/3 span;
+     grid-row: 5/6 span;
+     margin-top: -20px;
+     margin-right:80px ;
+     display: flex;
+     justify-content: space-evenly;
+     
+     
+ }
+ .Hobbies{
+     grid-column: 3/6 span;
+     grid-row: 5/6 span;
+     margin-left: 70px;
+     margin-top: -20px;
+     display: flex;
+     justify-content: space-evenly;
+     
+ }
+ 
+ .Source{
+     grid-column: 1/6 span;
+     grid-row: 6/7 span;
+     margin-top: -40px;
+     margin-right: 10px;
+     margin-left: -65px;
+     display: flex;
+     justify-content: space-evenly;
+     
+ }
+ .Upload {
+     grid-column: 1/3 span;
+     grid-row: 7/8 span;
+     margin-top: -55px;
+     margin-left: 30px;
+     
+ }
+ .Age{
+     grid-column: 3/6 span;
+     grid-row: 7/8 span;
+     margin-left: 100px;
+     margin-top: -55px;
+       
+ }
+ .Bio{
+    grid-column: 1/6 span;
+    grid-row: 7;
+    margin-left: 30px;
+    
+ }
+ .bottom{
+    display: flex;
+    justify-content: end;
+    grid-column: 1/6 span;
+    grid-row:8/9 span ;
+    margin-top: 25px;
+    border-radius:0 0 5px 5px; 
+    background-color: rgb(213, 234, 234);
+    border-top: 1px solid rgb(205, 195, 195);;
+    
+ }
+ label{
+     color: rgb(19, 197, 19);
+     font-size: 17px;
+     
+ }
+ label1{
+     color: rgb(96, 102, 96);
+     font-size: 10px;
+     
+ }
+ .inbutton{
+     font-size: 13px;
+     margin: 2px 2px 2px 2px;
+     color: rgb(10, 20, 20);
+     width: 120%;
+
+ }
+ .inEmail{
+     font-size: 13px;
+     margin: 2px 2px 2px 2px;
+     color: rgb(7, 19, 30);
+     width: 92%; 
+     
+ }
+
+ .select-button{
+     width: 170%;
+     cursor: pointer;
+ }
+ .Incom{
+     margin-left: 10px;
+     
+     
+ }
+ .rang{
+     width: 120%;
+     cursor: pointer;
+     
+ }
+ .A20k{
+     grid-column: 5/6 span;
+     grid-row:6/7 span;
+     margin-left: 100px;
+     margin-top: -20px;   
+ }
+ button{
+     color: aliceblue;
+     background-color: #7ebd7e;
+     border: 4px;
+     border-radius: 4px;
+     cursor: pointer;
+ }
+ .poin{
+     cursor: pointer;
+ }
+ .inAge{
+     width: 84%;
+ }
+ #bio{
+    width: 93%;
+    height: 80%;
+    border: 1px solid ;
+ }
+ .btn-submit{
+    margin-top: 8%;
+    margin-right: 29px;
+    padding: 10px 20px 10px 20px ;
+
+ }
